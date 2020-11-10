@@ -1,0 +1,68 @@
+.header-site {
+    background-image: url(../img/inicial2.jpg);
+    /*Deixar a imagem parada cobrindo toda a tela - efeito Parallax*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;/*Fazer com que a imagem cobra tadas extremidades, se ajuste a largura do site*/
+    background-attachment: fixed;/*Deixar a imagem fixa*/
+    color: #ffffff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.dom {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4.8rem;
+}
+
+.content-site {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.img-site {
+    background-image: url(../img/inicial2.jpg);
+    /*Deixar a imagem parada cobrindo toda a tela - efeito Parallax*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;/*Fazer com que a imagem cobra tadas extremidades, se ajuste a largura do site*/
+    background-attachment: fixed;/*Deixar a imagem fixa*/
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;  
+}
+
+.img-site2 {
+    background-image: url(../img/inicial.jpg);
+    /*Deixar a imagem parada cobrindo toda a tela - efeito Parallax*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;/*Fazer com que a imagem cobra tadas extremidades, se ajuste a largura do site*/
+    background-attachment: fixed;/*Deixar a imagem fixa*/
+    color: #ffffff;
+    padding-top: 250px;
+    padding-bottom: 200px;  
+}
+
+.footer-site {
+    background-color: #333333;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-sm-4 img {
+    max-width: 80%;
+    min-width: 40%;
+    height: auto;
+}
+
+.col-sm-4 h3 {
+    margin-top: 2rem;
+    
+}
+
+.col-sm-4 p {
+    margin-top: 20px;
+}
+
