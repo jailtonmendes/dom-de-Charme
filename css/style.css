@@ -92,5 +92,61 @@
     
     flex-wrap: wrap;
     align-items: flex-end;
-    
 }
+
+
+/*Responsividade*/
+
+@media (max-width: 320px) {  
+    /*Cabeçalho*/
+
+    .header-site {
+       background: rgb(201, 120, 22);
+       padding-bottom: 80px ;
+    }
+
+    .dom {
+        font-size: 7.8rem;  
+        color: aqua;
+    }
+
+    .lead {
+        font-size: 2.8rem;
+    }
+
+    .content-site h1 {
+        font-size: 4.8rem;  
+    }
+
+    .content-site p {
+        font-size: 2.0rem;
+    }
+
+    .col-sm-4{
+        display: contents;
+    }
+
+    .caption{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        min-width: 50%;
+        margin-bottom: 50px;
+        
+    }
+
+    .btn {
+        margin-bottom: 40px;
+        width: 40%;
+        height: 60px;
+        font-size: 2.0rem;
+
+    }
+    
+    .insta {
+
+        margin: 0 auto;
+    }
+}
+
